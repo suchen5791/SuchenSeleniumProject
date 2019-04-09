@@ -17,8 +17,8 @@ public class ImplicitExplicitWaitSynchronization {
 		WebDriver driver = new ChromeDriver();
 
 		// implicitly wait -- is always applied globally -- is available for all the web
-		//dynamic in nature
-		//it can be changed anywhere and at any time in your code
+		// dynamic in nature
+		// it can be changed anywhere and at any time in your code
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
