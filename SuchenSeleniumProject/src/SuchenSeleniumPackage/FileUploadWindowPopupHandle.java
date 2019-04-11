@@ -12,7 +12,8 @@ public class FileUploadWindowPopupHandle {
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://html.com/input-type-file/");
-
+         
+		//type= "file" should be present for Browser/AttachFile/UploadFile buttons		
 		driver.findElement(By.id("fileupload")).sendKeys("C:\\Users\\suchendrags\\Desktop\\test.txt");
 
 	}
